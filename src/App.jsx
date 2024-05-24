@@ -35,7 +35,7 @@ function App() {
 
   return (
     <>
-    <div style={{textAlign : "center", justifyContent: "center", backgroundColor:'grey', width:"50%", marginLeft:"200px", padding:"20px"}}>
+    <div style={{textAlign : "center", justifyContent: "center", backgroundColor: '#F8DFFF', width:"50%", marginLeft:"200px", padding:"20px"}}>
       <h1 className="text-4xl font-bold italic">Password Generator</h1>
       <input type="text" name="txtPassword" id="txtPassword" ref={passwordRef} readOnly value={password} />
       <button type='button' name='btnCopy' onClick={copyPassToClipboard}>Copy Password</button>
